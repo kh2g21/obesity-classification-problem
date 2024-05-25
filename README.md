@@ -9,7 +9,9 @@ The dataset used in this project is the Obesity Levels Detection Data Set. It co
 Gender: Male or Female
 
 Age: Age of the individual
+
 Height: Height in meters
+
 Weight: Weight in kilograms
 Family history with overweight: Yes or No
 FAVC (Frequent consumption of high caloric food): Yes or No
