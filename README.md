@@ -32,8 +32,6 @@ The target variable is the obesity level, classified into categories: Insufficie
 
 ### Gender Distribution across Obesity Levels
 
-![Gender Distribution across Obesity Levels](path/to/your/generated/plot.png)
-
 #### Observations:
 
 1. **Normal Weight**:
@@ -72,6 +70,75 @@ The target variable is the obesity level, classified into categories: Insufficie
 6. **Obesity Type II and III**:
    - Obesity Type II shows a wide age range from late teens to around 50 years, similar to Obesity Type I but with a slightly higher median age.
    - Obesity Type III has a more concentrated age range, primarily in the early twenties to early thirties, with fewer outliers, indicating that severe obesity is more prevalent in younger individuals.
+  
+## Frequent Consumption of High-Caloric Food across Obesity Levels
 
-   
+### Observations:
 
+1. **Normal Weight**:
+   - The majority of individuals with normal weight do not frequently consume high-caloric food, as indicated by a moderate count in the "yes" category and a significant count in the "no" category.
+
+2. **Overweight Level I**:
+   - Individuals in Overweight Level I predominantly consume high-caloric food frequently, with a high count in the "yes" category and a very low count in the "no" category.
+
+3. **Overweight Level II**:
+   - Similar to Overweight Level I, there is a high count of individuals frequently consuming high-caloric food, though with slightly more individuals in the "no" category compared to Overweight Level I.
+
+4. **Obesity Type I**:
+   - The highest count of individuals frequently consuming high-caloric food is observed in Obesity Type I, with very few individuals in the "no" category, indicating a strong correlation between frequent high-caloric food consumption and this obesity level.
+
+5. **Insufficient Weight**:
+   - The count of individuals with insufficient weight who frequently consume high-caloric food is low, with a more balanced distribution between "yes" and "no" categories, similar to the normal weight group.
+
+6. **Obesity Type II and III**:
+   - Both Obesity Type II and Obesity Type III show high counts in the "yes" category, with very few individuals in the "no" category. This pattern is similar to Obesity Type I but with slightly lower counts, suggesting that frequent high-caloric food consumption is prevalent across all severe obesity types.
+
+## Physical Activity Frequency across Obesity Levels
+
+### Observations:
+
+1. **Normal Weight**:
+   - Individuals with normal weight have a relatively high median physical activity frequency, with moderate variability indicated by the interquartile range.
+
+2. **Overweight Level I**:
+   - The median physical activity frequency is lower compared to normal weight individuals, with a larger spread indicating greater variability in activity levels.
+
+3. **Overweight Level II**:
+   - The median physical activity frequency decreases further, with less variability than Overweight Level I, indicating generally lower activity levels in this group.
+
+4. **Obesity Type I**:
+   - The median physical activity frequency is similar to Overweight Level I but with a broader spread, showing a wide range of activity levels among individuals.
+
+5. **Insufficient Weight**:
+   - Individuals with insufficient weight show a higher median physical activity frequency, similar to normal weight individuals, with moderate variability.
+
+6. **Obesity Type II and III**:
+   - Both Obesity Type II and Obesity Type III have the lowest median physical activity frequencies, with Obesity Type III showing slightly more variability. This indicates that individuals in these categories are generally less active, with some variation in activity levels.
+
+
+### Alcohol Consumption across Obesity Levels
+
+
+#### Observations:
+
+1. **No Alcohol Consumption**:
+   - Individuals with **Obesity Type I** have the highest count in the "no" alcohol consumption category.
+   - **Normal Weight** and **Insufficient Weight** categories also have a significant count of individuals who do not consume alcohol.
+   - **Obesity Type II** and **Obesity Type III** have a lower count of non-drinkers compared to Obesity Type I, indicating a different pattern in alcohol consumption.
+
+2. **Sometimes**:
+   - The majority of individuals across most obesity levels fall into the "sometimes" category for alcohol consumption.
+   - **Obesity Type III** has the highest count in this category, indicating a trend where severely obese individuals tend to consume alcohol occasionally rather than abstaining completely.
+   - **Overweight Level I** and **Overweight Level II** also show a high count in the "sometimes" category, reflecting that occasional alcohol consumption is common among overweight individuals.
+
+3. **Frequently**:
+   - The count of individuals consuming alcohol frequently is relatively low across all obesity levels.
+   - There is a slight increase in frequent consumption among those in the **Obesity Type I** category, but it remains minimal compared to non-drinkers and occasional drinkers.
+
+4. **Always**:
+   - The "always" category shows negligible counts for all obesity levels, indicating that continuous alcohol consumption is rare among the population in the dataset.
+
+### Overall Insights:
+- **Non-drinkers**: A substantial portion of individuals with normal weight, insufficient weight, and Obesity Type I do not consume alcohol at all.
+- **Occasional Drinkers**: The majority of individuals with higher obesity levels (particularly Obesity Type III) tend to drink alcohol sometimes.
+- **Frequent and Constant Drinkers**: Frequent and constant alcohol consumption is minimal across all obesity levels.
