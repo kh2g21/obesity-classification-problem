@@ -7,6 +7,7 @@ This project aims to classify obesity levels based on various health and lifesty
 The dataset used in this project is the Obesity Levels Detection Data Set. It contains information about individuals' eating habits, physical condition, and daily routines. Each record in the dataset includes the following features:
 
 Gender: Male or Female
+
 Age: Age of the individual
 Height: Height in meters
 Weight: Weight in kilograms
