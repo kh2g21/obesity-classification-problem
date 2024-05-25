@@ -138,7 +138,6 @@ The target variable is the obesity level, classified into categories: Insufficie
 4. **Always**:
    - The "always" category shows negligible counts for all obesity levels, indicating that continuous alcohol consumption is rare among the population in the dataset.
 
-### Overall Insights:
 - **Non-drinkers**: A substantial portion of individuals with normal weight, insufficient weight, and Obesity Type I do not consume alcohol at all.
 - **Occasional Drinkers**: The majority of individuals with higher obesity levels (particularly Obesity Type III) tend to drink alcohol sometimes.
 - **Frequent and Constant Drinkers**: Frequent and constant alcohol consumption is minimal across all obesity levels.
